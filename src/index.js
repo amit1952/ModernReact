@@ -2,11 +2,14 @@ import React from "react";
 import ReactDOM from 'react-dom';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
+  // Constructor
+  /*  constructor(props) {
+      super(props);
 
-    this.state = {lat: null, errorMessage: ''};
-  }
+      this.state = {lat: null, errorMessage: ''};
+    }*/
+
+  state = {lat: null, errorMessage: ''};
 
   // Lifecycle method
   componentDidMount() {
